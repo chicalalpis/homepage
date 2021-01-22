@@ -1,6 +1,1 @@
-.DS_Store
-
-# binary
-images/*
-assets/fonts/*
-assets/css/images/*
+*.DS_Store
