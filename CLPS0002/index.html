@@ -1,0 +1,568 @@
+
+<!DOCTYPE html>
+<!--
+  Theme: Tokusetsu 3
+  by @sanographix
+  http://www.sanographix.net
+  (c) 2016 Showkaku Sano
+  Free to use under the MIT license.
+-->
+<html prefix="og: http://ogp.me/ns#">
+<head>
+
+  <meta charset="utf-8">
+
+  
+  <meta name="font:Title" content="Helvetica Neue"/>
+  <meta name="font:Body" content="Helvetica Neue"/>
+
+  <meta name="image:Background Image" content=""/>
+  <meta name="image:Header Image" content=""/>
+  <meta name="image:Circle Logo" content=""/>
+  <meta name="image:Jacket" content=""/>
+  <meta name="image:Title Logo" content=""/>
+  <meta name="image:Banner" content=""/>
+  <meta name="image:Og Image" content=""/>
+
+  <meta name="image:02 l Introduction Heading Image" content="" />
+  <meta name="image:06 l Footer Additional Image" content="" />
+
+  <meta name="color:Accent" content="#ed1c24"/>
+
+  <meta name="if:00 l Enable Dark Mode" content="1"/>
+
+  <meta name="select:Header Title Logo Position" content="top" title="Top">
+  <meta name="select:Header Title Logo Position" content="middle" title="Middle">
+  <meta name="select:Header Title Logo Position" content="bottom" title="Bottom">
+
+  <meta name="select:Global Header Color" content="transparent" title="Transparent">
+  <meta name="select:Global Header Color" content="dark" title="Dark">
+  <meta name="select:Global Header Color" content="light" title="Light">
+  <meta name="select:Global Header Color" content="accent" title="Accent Color">
+
+  <meta name="if:01 l Enable Share Buttons" content="1"/>
+  <meta name="if:06 l Footer Additional Content" content="0"/> 
+
+  
+  <meta name="text:Book Mode l Book Sample Heading" content="SAMPLE" />
+  <meta name="image:Book Mode l Sample Image 01" content=""/>
+  <meta name="image:Book Mode l Sample Image 02" content=""/>
+  <meta name="image:Book Mode l Sample Image 03" content=""/>
+  <meta name="image:Book Mode l Sample Image 04" content=""/>
+  <meta name="image:Book Mode l Sample Image 05" content=""/>
+  <meta name="image:Book Mode l Sample Image 06" content=""/>
+
+  
+  <meta name="text:01 l Circle Logo Width" content="" />
+  <meta name="text:01 l Header Title Width" content="" />
+
+  <meta name="text:02 l Introduction" content="" />
+  <meta name="text:02 l Introduction Heading" content="INTRODUCTION" />
+  <meta name="text:02 l Introduction Heading Image Width" content="" />
+
+  <meta name="text:03 l Circle Name" content="" />
+  <meta name="text:03 l Circle URL" content="" />
+  <meta name="text:03 l Spec" content="" />
+  <meta name="text:03 l Release Date" content="" />
+  <meta name="text:03 l Booth Number" content="" />
+  <meta name="text:03 l Price" content="" />
+
+  <meta name="text:03 l Store01 Name" content="" />
+  <meta name="text:03 l Store01 URL" content="" />
+  <meta name="text:03 l Store02 Name" content="" />
+  <meta name="text:03 l Store02 URL" content="" />
+  <meta name="text:03 l Store03 Name" content="" />
+  <meta name="text:03 l Store03 URL" content="" />
+  <meta name="text:03 l Store Buttons Heading" content="AVAILABLE NOW" />
+
+  <meta name="text:04 l Youtube Embed Code" content="" />
+  <meta name="text:04 l Soundcloud Embed Code" content="" />
+  <meta name="text:04 l Nicovideo Embed Code" content="" />
+
+  <meta name="text:05 l Track01 Title" content="" />
+  <meta name="text:05 l Track01 Description" content="" />
+  <meta name="text:05 l Track02 Title" content="" />
+  <meta name="text:05 l Track02 Description" content="" />
+  <meta name="text:05 l Track03 Title" content="" />
+  <meta name="text:05 l Track03 Description" content="" />
+  <meta name="text:05 l Track04 Title" content="" />
+  <meta name="text:05 l Track04 Description" content="" />
+  <meta name="text:05 l Track05 Title" content="" />
+  <meta name="text:05 l Track05 Description" content="" />
+  <meta name="text:05 l Track06 Title" content="" />
+  <meta name="text:05 l Track06 Description" content="" />
+  <meta name="text:05 l Track07 Title" content="" />
+  <meta name="text:05 l Track07 Description" content="" />
+  <meta name="text:05 l Track08 Title" content="" />
+  <meta name="text:05 l Track08 Description" content="" />
+  <meta name="text:05 l Track09 Title" content="" />
+  <meta name="text:05 l Track09 Description" content="" />
+  <meta name="text:05 l Track10 Title" content="" />
+  <meta name="text:05 l Track10 Description" content="" />
+  <!--※トラック11以降を追加したい場合、このエリアに追記しましょう（ドキュメント参照）-->
+
+  <meta name="text:06 l Footer Additional Heading" content="" />
+  <meta name="text:06 l Footer Additional Text" content="" />
+
+  <meta name="text:07 l Staff01 Name" content="" />
+  <meta name="text:07 l Staff01 Role" content="" />
+  <meta name="text:07 l Staff01 URL" content="" />
+  <meta name="text:07 l Staff02 Name" content="" />
+  <meta name="text:07 l Staff02 Role" content="" />
+  <meta name="text:07 l Staff02 URL" content="" />
+  <meta name="text:07 l Staff03 Name" content="" />
+  <meta name="text:07 l Staff03 Role" content="" />
+  <meta name="text:07 l Staff03 URL" content="" />
+  <meta name="text:07 l Staff04 Name" content="" />
+  <meta name="text:07 l Staff04 Role" content="" />
+  <meta name="text:07 l Staff04 URL" content="" />
+  <meta name="text:07 l Staff05 Name" content="" />
+  <meta name="text:07 l Staff05 Role" content="" />
+  <meta name="text:07 l Staff05 URL" content="" />
+  <meta name="text:07 l Staff06 Name" content="" />
+  <meta name="text:07 l Staff06 Role" content="" />
+  <meta name="text:07 l Staff06 URL" content="" />
+  <!--※スタッフ07以降を追加したい場合、このエリアに追記しましょう（ドキュメント参照）-->
+
+  <meta name="text:08 l Footer Text" content="" />
+
+  <title>Fontana e Fata - 必ず生きて、腸まで届く</title>
+
+  <meta name="viewport" content="width=device-width">
+  
+    <meta name="description" content="" />
+    <meta name="og:description" content="" />
+  
+  <meta property="og:title" content="Fontana e Fata - 必ず生きて、腸まで届く" />
+  <meta property="og:type" content="website" />
+
+  <meta property="og:site_name" content="Fontana e Fata" />
+  
+    <link rel="canonical" href="https://c-lpis.net/CLPS0002/"/>
+    <meta property="og:url" content="https://c-lpis.net/CLPS0002/" />
+  
+  
+    <link rel="canonical" href=""/>
+    <meta property="og:url" content="" />
+  
+  <meta name="twitter:card" content="summary_large_image">
+  
+  
+    <meta name="twitter:image:src" content="header.jpg">
+    <meta property="og:image" content="header.jpg" />
+  
+
+  
+  <!-- ローカル実行時もGitHubからcssを読み込んでいることに注意 -->
+  <!-- <link rel="stylesheet" href="http://static.tumblr.com/xxf6ewk/JtXof35hl/style-light.css" /> -->
+  <link rel="stylesheet" href="https://chicalalpis.github.io/homepage/CLPS0002/style-dark.css" />
+  
+  
+
+  <link rel="shortcut icon" href="">
+
+</head>
+<body class="page-index"
+style="background-image: url('background.gif');"
+>
+
+<style>
+
+
+  body {
+    font-family: 'Caslon FS', serif;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Caslon FS', serif;
+  }
+
+  a,
+  .track-number {
+      color: #0d88a1;
+  }
+
+  .btn {
+      color: #0d88a1;
+      border-color: #0d88a1;
+  }
+  .btn:hover {
+    background-color: #0d88a1;
+  }
+
+  .spec-dl .spec-dl-label {
+    background-color: #f2fafa;
+  }
+
+</style>
+
+
+<div class="globalHeader
+  is-transparent
+"
+style="background-color: #0d88a1;"
+>
+  <div class="l-container">
+    <div class="globalHeader-inner">
+      <div class="globalHeader-labelName">
+        <a href="https://c-lpis.net" style="color: #eeeeee;">
+            必ず生きて、腸まで届く
+        </a>
+      </div>
+        <div class="globalHeader-shareBtns">
+          <a href="https://twitter.com/share?text=Fontana e Fata - 必ず生きて、腸まで届く&url=https://c-lpis.net/CLPS0002/" class="btn-tw" target="_blank">
+            <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
+          </a>
+          <a href="http://www.facebook.com/sharer.php?u=https://c-lpis.net/CLPS0002/" class="btn-fb" target="_blank">
+            <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
+          </a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="heroHeader">
+  <div class="heroHeader-inner
+  is-position-bottom
+  has-headerImage
+  " style="background-image: url('header.png');">
+    <header class="header">
+      <div class="l-container">
+        <h1>
+          <img class="header-logo" src="title-logo.png" alt="Fontana e Fata" style="width: 500px;">
+        </h1>
+      </div>
+    </header>
+  </div>
+</div>
+
+
+<section class="l-section section-introduction">
+  <div class="l-container">
+    
+      <header class="section-header">
+        <h2>
+            超絶美しい名前のサークルが送る<br/>
+            超絶美しい神秘に満ち溢れた世界
+        </h2>
+      </header>
+    
+    <div class="section-content">
+      <p>
+        「泉」と「妖精」がテーマのファンタジーインストコンピアルバム。<br/>
+        個性あふれる、神秘的で雄大な珠玉の楽曲たちをお届けいたします。<br/>
+        <br/>
+        ファンタジー系ゲームのBGMが好きな人は絶対にお気に召すでしょう。<br/>
+        そうでない方も、この楽曲たちを気に入っていただけると思います。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="l-section section-spec">
+  <div class="l-container">
+    <div class="l-row">
+      <div class="l-span5">
+          <a href="https://c-lpis.net/CLPS0002/jacket.jpg" target="_blank"><img src="jacket.jpg" alt="Fontana e Fata" class="jacket-image"></a>
+      </div>
+      <div class="l-span7">
+        <dl class="spec-dl">
+          <dt><span class="spec-dl-label">TITLE</span></dt>
+          <dd>Fontana e Fata</dd>
+
+          <dt><span class="spec-dl-label">CIRCLE</span></dt>
+          <dd><a href="https://c-lpis.net">必ず生きて、腸まで届く</a></dd>
+
+          <dt><span class="spec-dl-label">SPECIFICATION</span></dt>
+          <dd>Press CD</dd>
+
+          <dt><span class="spec-dl-label">RELEASE DATE</span></dt>
+          <dd>2019/03/02</dd>
+
+          <dt><span class="spec-dl-label">BOOTH</span></dt>
+          <dd><b>幻想音楽祭</b> C-1<br/><b>2019 春M3</b> B-08b</dd>
+
+          <dt><span class="spec-dl-label">PRICE</span></dt>
+          <dd>1,000YEN (Event Price)</dd>
+          
+          <dt><span class="spec-dl-label">STORE</span></dt>
+            <dd>
+              <ul>
+                <li>
+                  <a href="https://c-lpis.booth.pm/items/1231307">BOOTH</a>
+                </li>
+                <li>
+                  <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=500478">メロンブックス</a>
+                </li>
+              </ul>
+            </dd>
+          
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="l-section section-buy">
+  <div class="l-container">
+    <header class="section-header">
+      <h2>Shop</h2>
+    </header>
+    <div class="spec-buy-container">
+      <a href="https://c-lpis.booth.pm/items/1231307" class="spec-buy-button btn">BOOTH</a>
+      <a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=500478" class="spec-buy-button btn">メロンブックス</a>
+    </div>
+  </div>
+</section>
+
+  <section class="l-section section-tracklist">
+    <div class="l-container">
+      <header class="section-header">
+        <h2>TRACKLIST</h2>
+      </header>
+      <div class="section-content">
+        <ol class="tracklist">
+            <li class="track-container">
+              <div class="track-number">01</div>
+              <div class="track-content">
+                <span class="track-title">Fontana e Fata</span>
+                <span class="track-meta">Chicala Lpis</span>
+              </div>
+            </li>
+          <li class="track-container">
+            <div class="track-number">02</div>
+            <div class="track-content">
+              <span class="track-title">fairywoods of the wisdom</span>
+              <span class="track-meta">daisan</span>
+            </div>
+          </li>
+          <li class="track-container">
+            <div class="track-number">03</div>
+            <div class="track-content">
+              <span class="track-title">Overflowing</span>
+              <span class="track-meta">さんまのこぼね</span>
+            </div>
+          </li>
+          <li class="track-container">
+            <div class="track-number">04</div>
+            <div class="track-content">
+              <span class="track-title">Giardino misterioso "Libertisia"</span>
+              <span class="track-meta">MALVA.</span>
+            </div>
+          </li>
+          <li class="track-container">
+            <div class="track-number">05</div>
+            <div class="track-content">
+              <span class="track-title">そして勇者たちは其の泉まで辿り着く</span>
+              <span class="track-meta">tcheb</span>
+            </div>
+          </li>
+          <li class="track-container">
+            <div class="track-number">06</div>
+            <div class="track-content">
+              <span class="track-title">最奥の神秘</span>
+              <span class="track-meta">Chicala Lpis</span>
+            </div>
+          </li>
+          <li class="track-container">
+            <div class="track-number">07</div>
+            <div class="track-content">
+              <span class="track-title">Leanan Sidhe</span>
+              <span class="track-meta">Rigël Theatre</span>
+            </div>
+          </li>
+          <li class="track-container">
+            <div class="track-number">08</div>
+            <div class="track-content">
+              <span class="track-title">The Nerine, Freezing.</span>
+              <span class="track-meta">Puella</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+<section class="l-section section-youtube">
+  <div class="l-container">
+    <header class="section-header">
+        <h2>CROSSFADE</h2>
+    </header>
+    <div class="section-content">
+      <div id="youtube-iframe" class="video-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HU36MLbdMaY" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="l-section section-soundcloud">
+    <div class="l-container">
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F576313197&amp;color=000aff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+    </div>
+  </section>
+
+<section class="l-section section-credit">
+    <div class="l-container">
+      <header class="section-header">
+        <h2>CREDIT</h2>
+      </header>
+      <div class="section-content">
+        <h3 style="text-align: center; text-decoration: underline; font-size: 1.3rem;">Track Composer</h3>
+        <ul class="credit">
+          <li>
+            <span class="credit-role">導力を扱う冒険家</span>
+            <span class="credit-title">daisan</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/daisan_xellox" class="credit-website-link btn">Twitter</a>
+              <a href="http://clockxellox.sakura.ne.jp" class="credit-website-link btn">Website</a>
+            </span>
+          </li>
+          <li>
+            <span class="credit-role">不思議な油田の錬金術師</span>
+            <span class="credit-title">MALVA.</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/aoi_v_celica" class="credit-website-link btn">Twitter</a>
+              <a href="https://aruderia.amebaownd.com" class="credit-website-link btn">Website</a>
+            </span>
+          </li>
+          <li>
+            <span class="credit-role">指で音を紡ぐ少女</span>
+            <span class="credit-title">Puella</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/si_puella" class="credit-website-link btn">Twitter</a>
+            </span>
+          </li>
+        
+          <li>
+            <span class="credit-role">伝説の妖精使い</span>
+            <span class="credit-title">Rigël Theatre</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/14_Rigel" class="credit-website-link btn">Twitter</a>
+              <a href="http://www.rigeltheatre.com" class="credit-website-link btn">Website</a>
+            </span>
+          </li>
+          <li>
+            <span class="credit-role">勇者を導く獣使い</span>
+            <span class="credit-title">tcheb</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/tcheb_T" class="credit-website-link btn">Twitter</a>
+            </span>
+          </li>
+          <li>
+            <span class="credit-role">懇篤な小人使い</span>
+            <span class="credit-title">さんまのこぼね</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/kobone556514" class="credit-website-link btn">Twitter</a>
+            </span>
+          </li>
+
+      </ul>
+
+      <h3 style="text-align: center; text-decoration: underline; font-size: 1.3rem;">Illustrator</h3>
+        <ul class="credit">
+          <li style="margin-bottom: 0px;"></li>
+          <li>
+            <span class="credit-role">世界を魅せる者</span>
+            <span class="credit-title">I/O</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/sn2562" class="credit-website-link btn">Twitter</a>
+              <a href="https://sn2562.github.io/gbl/" class="credit-website-link btn">Website</a>
+            </span>
+          </li>
+          <li style="margin-bottom: 0px;"></li>
+      </ul>
+
+      <h3 style="text-align: center; text-decoration: underline; font-size: 1.3rem;">Movie Creator</h3>
+        <ul class="credit">
+          <li style="margin-bottom: 0px;"></li>
+          <li>
+            <span class="credit-role">空間を創造する者</span>
+            <span class="credit-title">わっふゑ</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/ks_wafflev0v" class="credit-website-link btn">Twitter</a>
+              <a href="http://wafflev0v.tumblr.com" class="credit-website-link btn">Website</a>
+            </span>
+          </li>
+          <li style="margin-bottom: 0px;"></li>
+      </ul>
+
+      <h3 style="text-align: center; text-decoration: underline; font-size: 1.3rem;">Producer</h3>
+        <ul class="credit">
+          <li style="margin-bottom: 0px;"></li>
+          <li>
+            <span class="credit-role">雑用</span>
+            <span class="credit-title">Chicala Lpis</span>
+            <span class="credit-website">
+              <a href="https://twitter.com/Chicala_Lpis" class="credit-website-link btn">Twitter</a>
+              <a href="https://c-lpis.net" class="credit-website-link btn">Website</a>
+            </span>
+          </li>
+          <li style="margin-bottom: 0px;"></li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="l-section section-share">
+  <div class="l-container">
+    <div class="footer-shareBtns">
+      <a href="https://twitter.com/share?text=Fontana e Fata - 必ず生きて、腸まで届く&url=https://c-lpis.net/CLPS0002/" class="btn-tw" target="_blank">
+        <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://c-lpis.net/CLPS0002/" class="btn-fb" target="_blank">
+        <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Note: Do not delete the following section.
+ここから先のセクションは消去しないでください -->
+<footer class="l-section section-footer">
+  <div class="l-container">
+    <div class="footer-content">
+      <div class="footer-copyright">
+        <span class="footer-title">
+          <a href="https://c-lpis.net/CLPS0002/">
+            Fontana e Fata
+          </a>
+        </span>
+        <span class="footer-copyright">
+          ©2019
+          <a href="https://c-lpis.net">
+            必ず生きて、腸まで届く
+          </a>
+        </span>
+        
+          <p class="footer-text"></p>
+        
+      </div>
+      <div class="footer-theme">
+        <div class="footer-theme-author">
+          <span class="footer-theme-tokusetsu3">
+            Made with
+            <a href="http://sanographix.github.io/tokusetsu3/" target="_blank">Tokusetsu 3</a>
+          </span>
+          <span class="footer-theme-">
+            Template designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a>
+          </span>
+        </div>
+        <div class="install-button">
+          <a href="http://sanographix.github.io/tokusetsu3/" class="footer-install-btn" target="_blank">Install theme</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="http://static.tumblr.com/xxf6ewk/yS6odxpso/scripts.js"></script>
+
+</body>
+</html>
+
