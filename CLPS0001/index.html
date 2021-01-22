@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+<!--
+  Theme: Tokusetsu 3
+  by @sanographix
+  http://www.sanographix.net
+  (c) 2016 Showkaku Sano
+  Free to use under the MIT license.
+-->
+<html prefix="og: http://ogp.me/ns#">
+<head>
+
+  <meta charset="utf-8">
+
+  
+  <meta name="font:Title" content="Helvetica Neue"/>
+  <meta name="font:Body" content="Helvetica Neue"/>
+
+  <meta name="image:Background Image" content=""/>
+  <meta name="image:Header Image" content=""/>
+  <meta name="image:Circle Logo" content=""/>
+  <meta name="image:Jacket" content=""/>
+  <meta name="image:Title Logo" content=""/>
+  <meta name="image:Banner" content=""/>
+  <meta name="image:Og Image" content=""/>
+
+  <meta name="image:02 l Introduction Heading Image" content="" />
+  <meta name="image:06 l Footer Additional Image" content="" />
+
+  <meta name="color:Accent" content="#ed1c24"/>
+
+  <meta name="if:00 l Enable Dark Mode" content="1"/>
+
+  <meta name="select:Header Title Logo Position" content="top" title="Top">
+  <meta name="select:Header Title Logo Position" content="middle" title="Middle">
+  <meta name="select:Header Title Logo Position" content="bottom" title="Bottom">
+
+  <meta name="select:Global Header Color" content="transparent" title="Transparent">
+  <meta name="select:Global Header Color" content="dark" title="Dark">
+  <meta name="select:Global Header Color" content="light" title="Light">
+  <meta name="select:Global Header Color" content="accent" title="Accent Color">
+
+  <meta name="if:01 l Enable Share Buttons" content="1"/>
+  <meta name="if:06 l Footer Additional Content" content="0"/> 
+
+  
+  <meta name="text:Book Mode l Book Sample Heading" content="SAMPLE" />
+  <meta name="image:Book Mode l Sample Image 01" content=""/>
+  <meta name="image:Book Mode l Sample Image 02" content=""/>
+  <meta name="image:Book Mode l Sample Image 03" content=""/>
+  <meta name="image:Book Mode l Sample Image 04" content=""/>
+  <meta name="image:Book Mode l Sample Image 05" content=""/>
+  <meta name="image:Book Mode l Sample Image 06" content=""/>
+
+  
+  <meta name="text:01 l Circle Logo Width" content="" />
+  <meta name="text:01 l Header Title Width" content="" />
+
+  <meta name="text:02 l Introduction" content="" />
+  <meta name="text:02 l Introduction Heading" content="INTRODUCTION" />
+  <meta name="text:02 l Introduction Heading Image Width" content="" />
+
+  <meta name="text:03 l Circle Name" content="" />
+  <meta name="text:03 l Circle URL" content="" />
+  <meta name="text:03 l Spec" content="" />
+  <meta name="text:03 l Release Date" content="" />
+  <meta name="text:03 l Booth Number" content="" />
+  <meta name="text:03 l Price" content="" />
+
+  <meta name="text:03 l Store01 Name" content="" />
+  <meta name="text:03 l Store01 URL" content="" />
+  <meta name="text:03 l Store02 Name" content="" />
+  <meta name="text:03 l Store02 URL" content="" />
+  <meta name="text:03 l Store03 Name" content="" />
+  <meta name="text:03 l Store03 URL" content="" />
+  <meta name="text:03 l Store Buttons Heading" content="AVAILABLE NOW" />
+
+  <meta name="text:04 l Youtube Embed Code" content="" />
+  <meta name="text:04 l Soundcloud Embed Code" content="" />
+  <meta name="text:04 l Nicovideo Embed Code" content="" />
+
+  <meta name="text:05 l Track01 Title" content="" />
+  <meta name="text:05 l Track01 Description" content="" />
+  <meta name="text:05 l Track02 Title" content="" />
+  <meta name="text:05 l Track02 Description" content="" />
+  <meta name="text:05 l Track03 Title" content="" />
+  <meta name="text:05 l Track03 Description" content="" />
+  <meta name="text:05 l Track04 Title" content="" />
+  <meta name="text:05 l Track04 Description" content="" />
+  <meta name="text:05 l Track05 Title" content="" />
+  <meta name="text:05 l Track05 Description" content="" />
+  <meta name="text:05 l Track06 Title" content="" />
+  <meta name="text:05 l Track06 Description" content="" />
+  <meta name="text:05 l Track07 Title" content="" />
+  <meta name="text:05 l Track07 Description" content="" />
+  <meta name="text:05 l Track08 Title" content="" />
+  <meta name="text:05 l Track08 Description" content="" />
+  <meta name="text:05 l Track09 Title" content="" />
+  <meta name="text:05 l Track09 Description" content="" />
+  <meta name="text:05 l Track10 Title" content="" />
+  <meta name="text:05 l Track10 Description" content="" />
+  <!--※トラック11以降を追加したい場合、このエリアに追記しましょう（ドキュメント参照）-->
+
+  <meta name="text:06 l Footer Additional Heading" content="" />
+  <meta name="text:06 l Footer Additional Text" content="" />
+
+  <meta name="text:07 l Staff01 Name" content="" />
+  <meta name="text:07 l Staff01 Role" content="" />
+  <meta name="text:07 l Staff01 URL" content="" />
+  <meta name="text:07 l Staff02 Name" content="" />
+  <meta name="text:07 l Staff02 Role" content="" />
+  <meta name="text:07 l Staff02 URL" content="" />
+  <meta name="text:07 l Staff03 Name" content="" />
+  <meta name="text:07 l Staff03 Role" content="" />
+  <meta name="text:07 l Staff03 URL" content="" />
+  <meta name="text:07 l Staff04 Name" content="" />
+  <meta name="text:07 l Staff04 Role" content="" />
+  <meta name="text:07 l Staff04 URL" content="" />
+  <meta name="text:07 l Staff05 Name" content="" />
+  <meta name="text:07 l Staff05 Role" content="" />
+  <meta name="text:07 l Staff05 URL" content="" />
+  <meta name="text:07 l Staff06 Name" content="" />
+  <meta name="text:07 l Staff06 Role" content="" />
+  <meta name="text:07 l Staff06 URL" content="" />
+  <!--※スタッフ07以降を追加したい場合、このエリアに追記しましょう（ドキュメント参照）-->
+
+  <meta name="text:08 l Footer Text" content="" />
+
+  <title>oltre la tragedia - 必ず生きて、腸まで届く</title>
+
+  <meta name="viewport" content="width=device-width">
+  
+    <meta name="description" content="" />
+    <meta name="og:description" content="" />
+  
+  <meta property="og:title" content="oltre la tragedia - 必ず生きて、腸まで届く" />
+  <meta property="og:type" content="website" />
+
+  <meta property="og:site_name" content="oltre la tragedia" />
+  
+    <link rel="canonical" href="http://c-lpis.net/CLPS0001/"/>
+    <meta property="og:url" content="http://c-lpis.net/CLPS0001/" />
+  
+  
+    <link rel="canonical" href=""/>
+    <meta property="og:url" content="" />
+  
+  <meta name="twitter:card" content="summary_large_image">
+  
+  
+    <meta name="twitter:image:src" content="header.jpg">
+    <meta property="og:image" content="header.jpg" />
+  
+
+  
+  
+  <link rel="stylesheet" href="http://static.tumblr.com/xxf6ewk/xNpof35hw/style-dark.css" />
+  
+
+  <link rel="shortcut icon" href="">
+
+</head>
+<body class="page-index"
+
+>
+
+<style>
+
+
+  body {
+    font-family: ;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: ;
+  }
+
+  a,
+  .track-number {
+      color: #e3503d;
+  }
+
+  .btn {
+      color: #e3503d;
+      border-color: #e3503d;
+  }
+  .btn:hover {
+    background-color: #e3503d;
+  }
+
+</style>
+
+
+<div class="globalHeader
+  is-transparent
+"
+style="background-color: #e3503d;"
+>
+  <div class="l-container">
+    <div class="globalHeader-inner">
+      <div class="globalHeader-labelName">
+        <a href="http://c-lpis.net" target="_blank">
+          
+          
+            必ず生きて、腸まで届く
+          
+        </a>
+      </div>
+      
+        <div class="globalHeader-shareBtns">
+          <a href="https://twitter.com/share?text=「これから始まる、悲劇の物語――」%0D%0Aoltre la tragedia - 必ず生きて、腸まで届く&url=http://c-lpis.net/CLPS0001/" class="btn-tw" target="_blank">
+            <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
+          </a>
+          <a href="http://www.facebook.com/sharer.php?u=http://c-lpis.net/CLPS0001/" class="btn-fb" target="_blank">
+            <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
+          </a>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="heroHeader">
+  <div class="heroHeader-inner
+  is-position-bottom
+  has-headerImage
+  " style="background-image: url('header.jpg');">
+    <header class="header">
+      <div class="l-container">
+        <h1>
+          <img class="header-logo" src="title-logo.png" alt="oltre la tragedia" style="width: px;">
+        </h1>
+      </div>
+    </header>
+  </div>
+</div>
+
+
+<section class="l-section section-introduction">
+  <div class="l-container">
+    
+      <header class="section-header">
+        <h2>
+          
+          
+            これから始まる、悲劇の物語――
+          
+        </h2>
+      </header>
+    
+    <div class="section-content">
+      <p>
+        『悲劇』をテーマにオリジナル曲をいろいろ作成したソロコンセプトファンタジーアルバム。<br/>
+        サークル名からは想像もつかない、哀しく儚い世界観をお届けします。<br/>
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="l-section section-soundcloud">
+    <div class="l-container">
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F476484906&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+    </div>
+  </section>
+
+
+<section class="l-section section-spec">
+  <div class="l-container">
+    <div class="l-row">
+      <div class="l-span5">
+        
+          <a href="https://c-lpis.net/CLPS0001/jacket.jpg" target="_blank"><img src="jacket.jpg" alt="oltre la tragedia" class="jacket-image"></a>
+        
+        
+      </div>
+      <div class="l-span7">
+        <dl class="spec-dl">
+          <dt><span class="spec-dl-label">TITLE</span></dt>
+          <dd>oltre la tragedia</dd>
+
+          <dt><span class="spec-dl-label">CIRCLE</span></dt>
+          <dd><a href="http://c-lpis.net" target="_blank">必ず生きて、腸まで届く</a></dd>
+
+          <dt><span class="spec-dl-label">SPECIFICATION</span></dt>
+          <dd>Press CD</dd>
+
+          <dt><span class="spec-dl-label">RELEASE DATE</span></dt>
+          <dd>2018 / 08 / 10</dd>
+
+          <dt><span class="spec-dl-label">BOOTH</span></dt>
+          <dd>C94 1日目 ぬ12-b</dd>
+
+          <dt><span class="spec-dl-label">PRICE</span></dt>
+          <dd>1000YEN (Event Price)</dd>
+
+          <dt><span class="spec-dl-label">STORE</span></dt>
+          <dd><a href="https://c-lpis.booth.pm/items/943966" target="_blank">BOOTH</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="l-section section-tracklist">
+    <div class="l-container">
+      <header class="section-header">
+        <h2>TRACKLIST</h2>
+      </header>
+      <div class="section-content">
+        <ol class="tracklist">
+            <li class="track-container">
+              <div class="track-number">01</div>
+              <div class="track-content">
+                <span class="track-title">Tragedia ~Prelude~</span>
+                <span class="track-meta">「これから始まる物語、或いは悲劇」</span>
+              </div>
+            </li>
+          
+          
+          <li class="track-container">
+            <div class="track-number">02</div>
+            <div class="track-content">
+              <span class="track-title"><a href="https://soundcloud.com/chicala_lpis/bofu2017-kafig-bms" style="color:#FFFFFF" target="_blank">Käfig</a></span>
+              <span class="track-meta">「絵本に閉じ込められた少女は、永久にその迷宮を彷徨う」</span>
+            </div>
+          </li>
+          
+          
+          <li class="track-container">
+            <div class="track-number">03</div>
+            <div class="track-content">
+              <span class="track-title">Fluchpuppe</span>
+              <span class="track-meta">「館を賑わせる、呪いの人形」</span>
+            </div>
+          </li>
+          
+          
+          <li class="track-container">
+            <div class="track-number">04</div>
+            <div class="track-content">
+              <span class="track-title">old lady</span>
+              <span class="track-meta">「戦いのあるところに必ず現れる、不死の戦艦」</span>
+            </div>
+          </li>
+          
+          
+          <li class="track-container">
+            <div class="track-number">05</div>
+            <div class="track-content">
+              <span class="track-title">Dead tree</span>
+              <span class="track-meta">「その伝説の樹は血塗られ、枯れていった」</span>
+            </div>
+          </li>
+          
+          
+          <li class="track-container">
+            <div class="track-number">06</div>
+            <div class="track-content">
+              <span class="track-title">Sacrificio</span>
+              <span class="track-meta">「森の奥に祀られた生贄が、目を覚まし火を放つ」</span>
+            </div>
+          </li>
+          
+          
+          <li class="track-container">
+            <div class="track-number">07</div>
+            <div class="track-content">
+              <span class="track-title"><a href="https://soundcloud.com/chicala_lpis/bmstragedia14" style="color:#FFFFFF" target="_blank">Tragedia ~Granforte~</a></span>
+              <span class="track-meta">「世界の刻を司る時計が狂った時、一体何が起きるだろう」</span>
+            </div>
+          </li>
+          
+          
+          <li class="track-container">
+            <div class="track-number">08</div>
+            <div class="track-content">
+              <span class="track-title">Sea you</span>
+              <span class="track-meta">「ゆっくり、ゆっくり、沈んでいく」</span>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </div>
+  </section>
+
+<section class="l-section section-buy">
+  <div class="l-container">
+    <header class="section-header">
+      <h2>STORE</h2>
+    </header>
+  <div class="spec-buy-container">
+    <a href="https://c-lpis.booth.pm/items/943966" class="spec-buy-button btn" target="_blank">BOOTH</a>
+  </div>
+</section>
+
+<section class="l-section section-youtube">
+  <div class="l-container">
+    <div class="section-content">
+      <div id="youtube-iframe" class="video-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NLQwsY0fiqM" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="l-section section-credit">
+    <div class="l-container">
+      <header class="section-header">
+        <h2>CREDIT</h2>
+      </header>
+      <div class="section-content">
+        <ul class="credit">
+        <li>
+          <span class="credit-role">Music</span>
+          <span class="credit-title">Chicala Lpis</span>
+          <span class="credit-website">
+            <a href="https://c-lpis.net" class="credit-website-link btn">Website</a>
+            <a href="https://twitter.com/Chicala_Lpis" class="credit-website-link btn">Twitter</a>
+          </span>
+        </li>
+        </li>
+ 
+          <li>
+            <span class="credit-role">Artwork</span>
+            <span class="credit-title">Alt</span>
+            <span class="credit-website">
+              <a href="http://alt1116.tumblr.com" class="credit-website-link btn">Website</a>
+            </span>
+          </li>
+        
+        
+        <li>
+          <span class="credit-role">Movie / Original Worldview</span>
+          <span class="credit-title">Spring Sky</span>
+          <span class="credit-website">
+            <a href="http://wafflev0v.tumblr.com" class="credit-website-link btn">Website</a>
+            <a href="http://twitter.com/ks_wafflev0v" class="credit-website-link btn">Twitter</a>
+          </span>
+        </li>
+        
+        
+        </ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="l-section section-share">
+  <div class="l-container">
+    <div class="footer-shareBtns">
+      <a href="https://twitter.com/share?text=「これから始まる、悲劇の物語――」%0D%0Aoltre la tragedia - 必ず生きて、腸まで届く&url=http://c-lpis.net/CLPS0001/" class="btn-tw" target="_blank">
+        <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-591 391.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6-1.2-1.3-2.9-2.1-4.8-2.1-3.6 0-6.6 2.9-6.6 6.6 0 .5.1 1 .2 1.5-5.5-.3-10.3-2.9-13.5-6.9-.6 1-.9 2.1-.9 3.3 0 2.3 1.2 4.3 2.9 5.5-1.1 0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4 0-.8 0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5 0-1.1 0-1.6-.1 2.9 1.9 6.4 2.9 10.1 2.9 12.1 0 18.7-10 18.7-18.7v-.8c1.3-1 2.4-2.1 3.3-3.4z"/></svg>
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=http://c-lpis.net/CLPS0001/" class="btn-fb" target="_blank">
+        <svg class="social-share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-623 385 32 32"><path fill="#FFF" d="M-605 417h-6v-16h-4v-5.5h4v-3.2c0-4.5 1.2-7.2 6.5-7.2h4.4v5.5h-2.8c-2.1 0-2.2.8-2.2 2.2v2.8h5l-.6 5.5h-4.4l.1 15.9z"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Note: Do not delete the following section.
+ここから先のセクションは消去しないでください -->
+<footer class="l-section section-footer">
+  <div class="l-container">
+    <div class="footer-content">
+      <div class="footer-copyright">
+        <span class="footer-title">
+          <a href="http://c-lpis.net/CLPS0001/">
+            oltre la tragedia
+          </a>
+        </span>
+        <span class="footer-copyright">
+          ©2018
+          <a href="http://c-lpis.net">
+            必ず生きて、腸まで届く
+          </a>
+        </span>
+        
+          <p class="footer-text"></p>
+        
+      </div>
+      <div class="footer-theme">
+        <div class="footer-theme-author">
+          <span class="footer-theme-tokusetsu3">
+            Made with
+            <a href="http://sanographix.github.io/tokusetsu3/" target="_blank">Tokusetsu 3</a>
+          </span>
+          <span class="footer-theme-">
+            Template designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a>
+          </span>
+        </div>
+        <div class="install-button">
+          <a href="http://sanographix.github.io/tokusetsu3/" class="footer-install-btn" target="_blank">Install theme</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="http://static.tumblr.com/xxf6ewk/yS6odxpso/scripts.js"></script>
+
+</body>
+</html>
+
